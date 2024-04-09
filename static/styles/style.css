@@ -1,0 +1,122 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: url("../img/back-img.jpg");
+  background-attachment: fixed;
+}
+
+/* ---------------------header--------------------- */
+header {
+  margin: 10px 15%;
+  width: 70%;
+  border-radius: 20px;
+  background-color: lightgreen;
+  display: inline-block;
+}
+
+.home {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.footer-href {
+  color: rgb(65, 58, 58);
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: aqua;
+  padding: 5px;
+}
+
+.footer-href:hover {
+  text-decoration: underline;
+}
+
+.nav-position {
+  margin: 6px 12px;
+  display: inline;
+  float: inline-end;
+  color: rgb(65, 58, 58);
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav > li {
+  display: inline;
+}
+
+.nav-href {
+  margin: 5px;
+  color: rgb(65, 58, 58);
+}
+
+.nav-href:hover {
+  text-decoration: underline;
+}
+
+/* ---------------------main--------------------- */
+main {
+  margin: 15px 15%;
+  border-radius: 20px;
+  background-color: rgb(235, 192, 192);
+  height: 1300px;
+}
+
+.page-name {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.list-elements {
+  list-style: none;
+  text-align: center;
+  font-size: 22px;
+}
+
+.list-elements > li {
+  margin: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.main-href {
+  /* color:aliceblue */
+  font-weight: bold;
+  border: 3px solid;
+  padding: 10px;
+}
+
+.main-href:hover {
+  color: aqua;
+}
+
+/* ---------------------footer--------------------- */
+
+footer {
+  background-color: rgb(252, 248, 243);
+  height: 65px;
+}
+
+.footer-text {
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
